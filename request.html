@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title> — 申请邀请</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳至内容</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="返回 Nexus 首页">
+        <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <rect x="1.5" y="1.5" width="21" height="21" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M6 12h12M12 6v12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-name">蛇长网络</span>
+      </a>
+      <nav class="nav" aria-label="主导航">
+        <a class="nav-link" href="index.html">主页</a>
+        <a class="nav-link" href="features.html">功能</a>
+        <a class="nav-link" href="request.html">申请邀请</a>
+        <a class="nav-link" href="reports.html">报告</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="request container">
+      <div class="request-panel">
+        <h4 class="request-title">加入候补名单</h4>
+        <p class="muted">我们在云南大学处于秘密开发阶段。留下邮箱，我们将在 202X 年秋季通知你。</p>
+        <form class="request-form" onsubmit="event.preventDefault(); alert('已提交，感谢！');">
+          <label class="sr-only" for="email">邮箱</label>
+          <input id="email" type="email" placeholder="you@university.edu（你的学校邮箱）" required />
+          <button class="btn btn-cta" type="submit">申请邀请</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-note muted">当前在云南大学秘密开发，预计于 202X 年秋季上线。</div>
+      <div class="footer-links muted">© 蛇长网络</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

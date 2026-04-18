@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title> — 报告中心</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳至内容</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="返回 Nexus 首页">
+        <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <rect x="1.5" y="1.5" width="21" height="21" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M6 12h12M12 6v12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-name">蛇长网络</span>
+      </a>
+      <nav class="nav" aria-label="主导航">
+        <a class="nav-link" href="index.html">主页</a>
+        <a class="nav-link" href="features.html">功能</a>
+        <a class="nav-link" href="request.html">申请邀请</a>
+        <a class="nav-link" href="reports.html">报告</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="reports container" aria-label="报告中心">
+      <h2 class="section-title">报告中心</h2>
+      <p class="section-lead muted">关于方案可行性分析</p>
+
+      <div class="reports-layout">
+        <aside class="reports-sidebar" aria-label="报告导航">
+          <ul>
+            <li><a class="report-item active" href="#report-1" data-target="report-1" aria-selected="true">使用概览</a></li>
+            <li><a class="report-item" href="#report-2" data-target="report-2" aria-selected="false">实名验证审计</a></li>
+            <li><a class="report-item" href="#report-3" data-target="report-3" aria-selected="false">学术同步报告</a></li>
+            <li><a class="report-item" href="#report-4" data-target="report-4" aria-selected="false">参与度指标</a></li>
+            <li><a class="report-item" href="#report-5" data-target="report-5" aria-selected="false">活动流分析</a></li>
+          </ul>
+        </aside>
+
+        <section class="reports-display" aria-live="polite">
+          <div id="report-1" class="report-panel" aria-hidden="false">1<!-- 在此处编辑报告 1 内容 -->
+          </div>
+          <div id="report-2" class="report-panel" hidden aria-hidden="true">2 <!-- 在此处编辑报告 2 内容 -->
+          </div>
+          <div id="report-3" class="report-panel" hidden aria-hidden="true">3 <!-- 在此处编辑报告 3 内容 -->
+          </div>
+          <div id="report-4" class="report-panel" hidden aria-hidden="true">4 <!-- 在此处编辑报告 4 内容 -->
+          </div>
+          <div id="report-5" class="report-panel" hidden aria-hidden="true">5 <!-- 在此处编辑报告 5 内容 -->
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-note muted">当前在云南大学秘密开发，预计于 202X 年秋季上线。</div>
+      <div class="footer-links muted">© Nexus</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
